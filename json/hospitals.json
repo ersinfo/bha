@@ -1,7 +1,7 @@
 [
   {
     "name": "Sir Sunderlal Hospital (IMS-BHU)",
-    "image": "/images/sunder lal.PNG",
+    "image": "./images/sunder lal.PNG",
     "location": "BHU Campus, Varanasi",
     "type": "Government / Teaching",
     "specialties": ["Trauma", "Super-specialty"],
@@ -11,7 +11,7 @@
   },
   {
     "name": "Lal Bahadur Shastri Hospital",
-    "image": "/images/lal bahadur.PNG",
+    "image": "./images/lal bahadur.PNG",
     "location": "Ramnagar, Varanasi",
     "type": "Government",
     "notable": "District government hospital",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Pandit Deen Dayal Upadhyaya Hospital",
-    "image": "/images/din dayal up.PNG",
+    "image": "./images/din dayal up.PNG",
     "location": "Pandeypur, Varanasi",
     "type": "Government",
     "notable": "Public hospital serving local population",
@@ -27,7 +27,7 @@
   },
   {
     "name": "District Govt. Women Hospital",
-    "image": "/images/District Govt. Women Hospital.PNG",
+    "image": "./images/District Govt. Women Hospital.PNG",
     "location": "Kabir Chaura, Varanasi",
     "type": "Government (Women’s Hospital)",
     "notable": "Government-run women's hospital",
@@ -35,7 +35,7 @@
   },
   {
     "name": "Shri Shiv Prasad Gupt Divisional District Hospital",
-    "image": "/images/Shri Shiv Prasad Gupt Divisional District Hospital.PNG",
+    "image": "./images/Shri Shiv Prasad Gupt Divisional District Hospital.PNG",
     "location": "Kabir Chaura, Varanasi",
     "type": "Government",
     "notable": "Divisional district hospital",
@@ -43,7 +43,7 @@
   },
   {
     "name": "Popular Hospital",
-    "image": "/images/Popular Hospital.PNG",
+    "image": "./images/Popular Hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Super-specialty",
     "specialties": ["Multi-specialty care"],
@@ -53,7 +53,7 @@
   },
   {
     "name": "Heritage Hospital",
-    "image": "/images/Heritage Hospital.PNG",
+    "image": "./images/Heritage Hospital.PNG",
     "location": "Lanka, Varanasi",
     "type": "Private / Multi-specialty",
     "specialties": ["20+ specialties"],
@@ -63,7 +63,7 @@
   },
   {
     "name": "Peace Point Hospitals Pvt. Ltd.",
-    "image": "/images/Peace Point Hospitals Pvt. Ltd..PNG",
+    "image": "./images/Peace Point Hospitals Pvt. Ltd..PNG",
     "location": "Bhelupura, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Established multi-specialty group offering mother & child care services",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Cygnus Laxmi Super Speciality Hospital",
-    "image": "/images/Cygnus Laxmi Super Speciality Hospital.PNG",
+    "image": "./images/Cygnus Laxmi Super Speciality Hospital.PNG",
     "location": "Cantt area, Varanasi",
     "type": "Private / Super-specialty",
     "notable": "Joint venture offering advanced super-specialty services",
@@ -79,7 +79,7 @@
   },
   {
     "name": "Ford Hospital",
-    "image": "/images/ford hospital.PNG",
+    "image": "./images/ford hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Multi-specialty",
     "beds": 100,
@@ -89,7 +89,7 @@
   },
   {
     "name": "Octavia Hospital",
-    "image": "/images/octavia hospital.PNG",
+    "image": "./images/octavia hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Multi-super-specialty",
     "notable": "24/7 emergency services with advanced medical facilities",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Arvachin Hospital",
-    "image": "/images/Arvachin Hospital.jpg",
+    "image": "./images/Arvachin Hospital.jpg",
     "location": "Varanasi",
     "type": "Private / Multi-super-specialty",
     "beds": 200,
@@ -106,7 +106,7 @@
   },
   {
     "name": "Georgian Super Speciality Hospital",
-    "image": "/images/Georgian Super Speciality Hospital.PNG",
+    "image": "./images/Georgian Super Speciality Hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Super-specialty",
     "notable": "Listed among top hospitals in Varanasi",
@@ -114,7 +114,7 @@
   },
   {
     "name": "Ayushman Hospital",
-    "image": "/images/Ayushman Hospital.PNG",
+    "image": "./images/Ayushman Hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Recognized in reliable hospital listings",
@@ -122,7 +122,7 @@
   },
   {
     "name": "Galaxy Hospital",
-    "image": "/images/Galaxy Hospital.PNG",
+    "image": "./images/Galaxy Hospital.PNG",
     "location": "Sigra, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Modern multi-specialty facility with numerous departments",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Varanasi Hospital & Medical Research Centre",
-    "image": "/images/Varanasi Hospital & Medical Research Centre.png",
+    "image": "./images/Varanasi Hospital & Medical Research Centre.png",
     "location": "Bhelupura, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "25 years established, Ayushman Bharat & Star Health cashless treatments",
@@ -138,7 +138,7 @@
   },
   {
     "name": "Meridian Hospital",
-    "image": "/images/Meridian Hospital.PNG",
+    "image": "./images/Meridian Hospital.PNG",
     "location": "Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Claims to provide top-class treatment at competitive rates",
@@ -146,7 +146,7 @@
   },
   {
     "name": "Bharadwaj Hospital",
-    "image": "/images/Bharadwaj Hospital.PNG",
+    "image": "./images/Bharadwaj Hospital.PNG",
     "location": "Lahartara, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Multi-speciality Ayurveda clinic listed on Practo",
@@ -154,7 +154,7 @@
   },
   {
     "name": "Vatsalya Children Hospital",
-    "image": "/images/Vatsalya Children Hospital.PNG",
+    "image": "./images/Vatsalya Children Hospital.PNG",
     "location": "Orderly Bazaar, Varanasi",
     "type": "Private / Pediatric",
     "notable": "Children’s hospital with pediatric specialists",
@@ -162,7 +162,7 @@
   },
   {
     "name": "H.C. Neuro Hospital",
-    "image": "/images/h. c.PNG",
+    "image": "./images/h. c.PNG",
     "location": "Vshi Shivpur, Varanasi",
     "type": "Private / Psychiatry / Neuro",
     "notable": "Psychiatry and neurology services listed on Practo",
@@ -170,7 +170,7 @@
   },
   {
     "name": "Jeevan Reekha Hospital",
-    "image": "/images/jeevan rekha.PNG",
+    "image": "./images/jeevan rekha.PNG",
     "location": "Pahariya Mandi, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Multi-speciality clinic, open 24×7",
@@ -178,7 +178,7 @@
   },
   {
     "name": "Himanshu Hospital",
-    "image": "/images/Himanshu Hospital.jpg",
+    "image": "./images/Himanshu Hospital.jpg",
     "location": "Pandeypur, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "General and urology services listed",
@@ -186,7 +186,7 @@
   },
   {
     "name": "Pragya Multispeciality Hospital & Research Centre",
-    "image": "/images/pragya.PNG",
+    "image": "./images/pragya.PNG",
     "location": "Harhua, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Clinic with low fee, operates 24×7",
@@ -194,7 +194,7 @@
   },
   {
     "name": "Shri Brijraj Bone Hospital",
-    "image": "/images/Shri Brijraj Bone Hospital.PNG",
+    "image": "./images/Shri Brijraj Bone Hospital.PNG",
     "location": "Ashapur, Varanasi",
     "type": "Private / Orthopedic",
     "notable": "Specializing in orthopedic surgery",
@@ -203,7 +203,7 @@
   },
   {
     "name": "Panacea Hospital & Diabetes Care Organization",
-    "image": "/images/Panacea Hospital & Diabetes Care Organization.PNG",
+    "image": "./images/Panacea Hospital & Diabetes Care Organization.PNG",
     "location": "Durgakund, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Care for diabetes and other specialties, open 24 hrs",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Banaras Medicity Heart & Multi Superspeciality Hospital",
-    "image": "/images/Banaras Medicity Heart & Multi Superspeciality Hospital.PNG",
+    "image": "./images/Banaras Medicity Heart & Multi Superspeciality Hospital.PNG",
     "location": "Sigra Road, Varanasi",
     "type": "Private / Cardiac & Multi-specialty",
     "notable": "Heart and multi-super-speciality care hospital, open 24 hrs",
@@ -219,7 +219,7 @@
   },
   {
     "name": "Arc Plus Superspeciality Hospital",
-    "image": "/images/Arc Plus Superspeciality Hospital.PNG",
+    "image": "./images/Arc Plus Superspeciality Hospital.PNG",
     "location": "Chitaipur, Chunar Road, Varanasi",
     "type": "Private / Super-specialty",
     "notable": "Reasonably priced super-speciality hospital",
@@ -227,7 +227,7 @@
   },
   {
     "name": "Jamuna Seva Sadan & Research Centre",
-    "image": "/images/Jamuna Seva Sadan & Research Centre.PNG",
+    "image": "./images/Jamuna Seva Sadan & Research Centre.PNG",
     "location": "Panchkoshi Road, Shivpur, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "Modern diagnostic facilities, 24×7 services",
@@ -235,7 +235,7 @@
   },
   {
     "name": "Usha Memorial Hospital",
-    "image": "/images/Usha Memorial Hospital.jpg",
+    "image": "./images/Usha Memorial Hospital.jpg",
     "location": "Lamahi, Sarnath, Varanasi",
     "type": "Private / Multi-specialty",
     "notable": "9 years in healthcare, open 24 hrs",
