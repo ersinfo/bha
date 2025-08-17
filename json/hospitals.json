@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Sir Sunderlal Hospital (IMS-BHU)",
+    "image": "/images/sunder lal.PNG",
+    "location": "BHU Campus, Varanasi",
+    "type": "Government / Teaching",
+    "specialties": ["Trauma", "Super-specialty"],
+    "beds": 1500,
+    "notable": "AIIMS-like tertiary referral hospital, largest in Eastern UP",
+    "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Lal Bahadur Shastri Hospital",
+    "image": "/images/lal bahadur.PNG",
+    "location": "Ramnagar, Varanasi",
+    "type": "Government",
+    "notable": "District government hospital",
+      "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Pandit Deen Dayal Upadhyaya Hospital",
+    "image": "/images/din dayal up.PNG",
+    "location": "Pandeypur, Varanasi",
+    "type": "Government",
+    "notable": "Public hospital serving local population",
+      "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "District Govt. Women Hospital",
+    "image": "/images/District Govt. Women Hospital.PNG",
+    "location": "Kabir Chaura, Varanasi",
+    "type": "Government (Women’s Hospital)",
+    "notable": "Government-run women's hospital",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Shri Shiv Prasad Gupt Divisional District Hospital",
+    "image": "/images/Shri Shiv Prasad Gupt Divisional District Hospital.PNG",
+    "location": "Kabir Chaura, Varanasi",
+    "type": "Government",
+    "notable": "Divisional district hospital",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Popular Hospital",
+    "image": "/images/Popular Hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Super-specialty",
+    "specialties": ["Multi-specialty care"],
+    "beds": 450,
+    "notable": "450-bedded super-speciality serving Eastern UP for over 31 years",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Heritage Hospital",
+    "image": "/images/Heritage Hospital.PNG",
+    "location": "Lanka, Varanasi",
+    "type": "Private / Multi-specialty",
+    "specialties": ["20+ specialties"],
+    "accreditations": ["NABH", "NABL"],
+    "notable": "First NABH/NABL-accredited hospital in Varanasi, 30 years of excellence",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Peace Point Hospitals Pvt. Ltd.",
+    "image": "/images/Peace Point Hospitals Pvt. Ltd..PNG",
+    "location": "Bhelupura, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Established multi-specialty group offering mother & child care services",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Cygnus Laxmi Super Speciality Hospital",
+    "image": "/images/Cygnus Laxmi Super Speciality Hospital.PNG",
+    "location": "Cantt area, Varanasi",
+    "type": "Private / Super-specialty",
+    "notable": "Joint venture offering advanced super-specialty services",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Ford Hospital",
+    "image": "/images/ford hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Multi-specialty",
+    "beds": 100,
+    "accreditations": ["ISO 9001:2008"],
+    "notable": "ISO-certified 100-bed multi-disciplinary & super-speciality hospital",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Octavia Hospital",
+    "image": "/images/octavia hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Multi-super-specialty",
+    "notable": "24/7 emergency services with advanced medical facilities",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Arvachin Hospital",
+    "image": "/images/Arvachin Hospital.jpg",
+    "location": "Varanasi",
+    "type": "Private / Multi-super-specialty",
+    "beds": 200,
+    "notable": "Accredited 200+-bedded super-specialty hospital with NICU",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Georgian Super Speciality Hospital",
+    "image": "/images/Georgian Super Speciality Hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Super-specialty",
+    "notable": "Listed among top hospitals in Varanasi",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Ayushman Hospital",
+    "image": "/images/Ayushman Hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Recognized in reliable hospital listings",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Galaxy Hospital",
+    "image": "/images/Galaxy Hospital.PNG",
+    "location": "Sigra, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Modern multi-specialty facility with numerous departments",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Varanasi Hospital & Medical Research Centre",
+    "image": "/images/Varanasi Hospital & Medical Research Centre.png",
+    "location": "Bhelupura, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "25 years established, Ayushman Bharat & Star Health cashless treatments",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Meridian Hospital",
+    "image": "/images/Meridian Hospital.PNG",
+    "location": "Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Claims to provide top-class treatment at competitive rates",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Bharadwaj Hospital",
+    "image": "/images/Bharadwaj Hospital.PNG",
+    "location": "Lahartara, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Multi-speciality Ayurveda clinic listed on Practo",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Vatsalya Children Hospital",
+    "image": "/images/Vatsalya Children Hospital.PNG",
+    "location": "Orderly Bazaar, Varanasi",
+    "type": "Private / Pediatric",
+    "notable": "Children’s hospital with pediatric specialists",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "H.C. Neuro Hospital",
+    "image": "/images/h. c.PNG",
+    "location": "Vshi Shivpur, Varanasi",
+    "type": "Private / Psychiatry / Neuro",
+    "notable": "Psychiatry and neurology services listed on Practo",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Jeevan Reekha Hospital",
+    "image": "/images/jeevan rekha.PNG",
+    "location": "Pahariya Mandi, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Multi-speciality clinic, open 24×7",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Himanshu Hospital",
+    "image": "/images/Himanshu Hospital.jpg",
+    "location": "Pandeypur, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "General and urology services listed",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Pragya Multispeciality Hospital & Research Centre",
+    "image": "/images/pragya.PNG",
+    "location": "Harhua, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Clinic with low fee, operates 24×7",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Shri Brijraj Bone Hospital",
+    "image": "/images/Shri Brijraj Bone Hospital.PNG",
+    "location": "Ashapur, Varanasi",
+    "type": "Private / Orthopedic",
+    "notable": "Specializing in orthopedic surgery",
+
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Panacea Hospital & Diabetes Care Organization",
+    "image": "/images/Panacea Hospital & Diabetes Care Organization.PNG",
+    "location": "Durgakund, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Care for diabetes and other specialties, open 24 hrs",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Banaras Medicity Heart & Multi Superspeciality Hospital",
+    "image": "/images/Banaras Medicity Heart & Multi Superspeciality Hospital.PNG",
+    "location": "Sigra Road, Varanasi",
+    "type": "Private / Cardiac & Multi-specialty",
+    "notable": "Heart and multi-super-speciality care hospital, open 24 hrs",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Arc Plus Superspeciality Hospital",
+    "image": "/images/Arc Plus Superspeciality Hospital.PNG",
+    "location": "Chitaipur, Chunar Road, Varanasi",
+    "type": "Private / Super-specialty",
+    "notable": "Reasonably priced super-speciality hospital",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Jamuna Seva Sadan & Research Centre",
+    "image": "/images/Jamuna Seva Sadan & Research Centre.PNG",
+    "location": "Panchkoshi Road, Shivpur, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "Modern diagnostic facilities, 24×7 services",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  },
+  {
+    "name": "Usha Memorial Hospital",
+    "image": "/images/Usha Memorial Hospital.jpg",
+    "location": "Lamahi, Sarnath, Varanasi",
+    "type": "Private / Multi-specialty",
+    "notable": "9 years in healthcare, open 24 hrs",
+     "insurance": ["AAYUSHMAN CARD", "LIC", "Max Bupa", "ICICI Prudential", "HDFC Ergo", "Religare", "Star Health"]
+  }
+]

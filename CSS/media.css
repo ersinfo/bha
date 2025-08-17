@@ -1,0 +1,19 @@
+/* Only apply on large (desktop) screens */
+@media (min-width: 992px) {
+  #searchBox {
+    width: 900px !important;   /* search input width */
+  }
+  #searchBtn {
+    white-space: nowrap;       /* button ka text cut na ho */
+  }
+}
+
+@media (max-width: 768px) {
+    img.responsive-img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100%;
+}
+ }
+
+

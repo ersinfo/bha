@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bhaaratcare</title>
+    <link rel="icon" href="/images/logo icon.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/media.css" />
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-3 px-lg-5">
+  <div class="container-fluid">
+
+    <!-- Logo on left -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img style="height: 45px; width: 45px;" src="/images/logo icon.png" alt="Logo Icon" />
+      <!-- logo name only on desktop -->
+      <img style="height: 45px; width: 130px;" src="/images/logo name.png" 
+           alt="Logo Name" class="ms-2 d-none d-lg-block" />
+    </a>
+
+    <!-- Toggle button on right (only on mobile) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse flex-lg-row" id="navbarSupportedContent">
+
+      <!-- Search bar (below toggle in mobile, inline in desktop) -->
+      <form class="d-flex mx-auto my-2 my-lg-0 w-100 w-lg-50" role="search" onsubmit="return false;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchBox" />
+        <button class="btn btn-outline-danger" type="submit" id="searchBtn">Search</button>
+      </form>
+
+      <!-- Right side links -->
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item mb-2 mb-lg-0">
+          <a class="dropdown-item" style="margin-top: 3px;" href="addForm.html">Add Hospital</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="container text-center" style="margin-top: 93px;">
+    <h2 id="hospital-name"></h2>
+    <br>
+    <img id="hospital-image" src="" alt="Hospital Image" class="img-fluid mb-3" style="max-width: 639px;" />
+    <p><strong>Location:</strong> <span id="hospital-location"></span></p>
+    <p><strong>Type:</strong> <span id="hospital-type"></span></p>
+    <p><strong>Specialties:</strong> <span id="hospital-specialties"></span></p>
+    <p><strong>Beds:</strong> <span id="hospital-beds"></span></p>
+    <p><strong>Accreditations:</strong> <span id="hospital-accreditations"></span></p>
+    <p><strong>Notable:</strong> <span id="hospital-notable"></span></p>
+
+    <hr />
+    <div>
+      <p>
+  <strong>Insurance:</strong>
+  <br>
+  <span id="hospital-insurance" style="display: inline-block; max-width: 90vw; overflow-x: auto; white-space: nowrap;"></span>
+</p>
+    </div>
+
+       <hr />
+    <h4>Reviews</h4>
+    <div id="reviews-list" class="mb-4">
+      <!-- Existing reviews will be shown here -->
+    </div>
+
+    <!-- Review Form -->
+    <form id="review-form">
+      <div class="mb-3">
+        <label for="reviewer-name" class="form-label">Your Name</label>
+        <input type="text" id="reviewer-name" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="review-text" class="form-label">Your Review</label>
+        <textarea id="review-text" rows="3" class="form-control" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+
+  <script>
+    // Get hospital data from localStorage
+    const hospitalData = JSON.parse(localStorage.getItem('selectedHospital'));
+    if (!hospitalData) {
+      document.body.innerHTML = '<p class="m-5 text-danger">Hospital details not found.</p>';
+    } else {
+      // Show hospital details
+      document.getElementById('hospital-name').textContent = hospitalData.name || '';
+      document.getElementById('hospital-image').src = hospitalData.image || '';
+      document.getElementById('hospital-location').textContent = hospitalData.location || '';
+      document.getElementById('hospital-type').textContent = hospitalData.type || 'N/A';
+      document.getElementById('hospital-specialties').textContent = hospitalData.specialties ? hospitalData.specialties.join(', ') : 'N/A';
+      document.getElementById('hospital-beds').textContent = hospitalData.beds || 'N/A';
+      document.getElementById('hospital-accreditations').textContent = hospitalData.accreditations ? hospitalData.accreditations.join(', ') : 'N/A';
+      document.getElementById('hospital-notable').textContent = hospitalData.notable || '';
+  if (Array.isArray(hospitalData.insurance)) {
+  // Badges HTML bana do
+  document.getElementById('hospital-insurance').innerHTML = hospitalData.insurance.map(name =>
+    `<span class="badge bg-success me-1 mb-1">${name}</span>`).join('');
+} else {
+  document.getElementById('hospital-insurance').textContent = 'N/A';
+}
+
+    }
+
+    // Load reviews from localStorage key based on hospital name for uniqueness
+    const revKey = hospitalData ? 'reviews_' + hospitalData.name.replace(/\s+/g, '_') : null;
+    let reviews = revKey ? JSON.parse(localStorage.getItem(revKey)) || [] : [];
+
+    const reviewsList = document.getElementById('reviews-list');
+
+    function displayReviews() {
+      if (!reviews.length) {
+        reviewsList.innerHTML = '<p>No reviews yet. Be the first to review!</p>';
+        return;
+      }
+      reviewsList.innerHTML = reviews
+        .map(
+          r => `
+          <div class="card mb-2">
+            <div class="card-body">
+              <h6 class="card-subtitle mb-1 text-primary">${r.name}</h6>
+              <p class="card-text">${r.text}</p>
+            </div>
+          </div>`
+        )
+        .join('');
+    }
+
+    displayReviews();
+
+    // Handle submit of review form
+    document.getElementById('review-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('reviewer-name').value.trim();
+      const text = document.getElementById('review-text').value.trim();
+      if (name && text) {
+        const newReview = { name, text };
+        reviews.push(newReview);
+        localStorage.setItem(revKey, JSON.stringify(reviews));
+        displayReviews();
+        e.target.reset();
+      }
+    });
+  </script>
+</body>
+</html>
